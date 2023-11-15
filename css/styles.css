@@ -208,12 +208,15 @@ background-color: var(--hover-focus-color);
 
 /*---------ADVANTAGES---------*/
 .advantages {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .advantages-list {
   display: flex;
   gap: 24px;
+}
+.advantages-feature {
+  
 }
 
 .advantages-item {
@@ -221,7 +224,7 @@ background-color: var(--hover-focus-color);
   gap: 8px;
 }
 
-/* .advantages-tittle {
+.advantages-tittle {
 color: var(--primary-color);
 font-family: var(--main-font);
 font-size: 20px;
@@ -229,7 +232,7 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.4px;
 margin-bottom: 8px;
-} */
+} 
 
 .advantages-title:not(:first-child) {
 padding-left: 24px;
@@ -348,7 +351,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.4px;
-margin-bottom: 16px;
+margin-bottom: 8px;
 text-align: left;
 }
 
@@ -365,7 +368,7 @@ text-align: left;
 /*---------FOOTER---------*/
 .footer {
 background-color: var(--primary-color);
-padding-top: 102px;
+padding-top: 100px;
 padding-bottom: 100px;
 }
 
