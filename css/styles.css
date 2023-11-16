@@ -208,12 +208,12 @@ background-color: var(--hover-focus-color);
 
 /*---------ADVANTAGES---------*/
 .advantages {
-  padding-top: 188px;
-  padding-bottom: 188px;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 .advantages-list {
-  display: flex;
-  gap: 24px;
+display: flex;
+gap: 24px;
 }
 .advantages-feature {
   
@@ -249,13 +249,8 @@ letter-spacing: 0.32px;
 
 /*---------TEAM---------*/
 .team {
-  background-color: var(--other);
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.team-title {
-  margin-bottom: 72px;
+background-color: var(--other);
+padding: 188px 0 188px;
 }
 
 .team-item {
@@ -265,7 +260,7 @@ background: var(--second-color);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-width: calc((100% - 24 * 3) / 4);
+width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-list {
@@ -318,8 +313,7 @@ letter-spacing: 0.32px;
 /*---------PORTFOLIO---------*/
 .portfolio {
 background-color: var(--second-color);
-padding-top: 120px;
-padding-bottom: 120px;
+padding: 120px 0 120px;
 }
 
 .portfolio-card {
@@ -381,7 +375,7 @@ line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
 display: inline-block;
-margin-bottom: 18px;
+margin-bottom: 16px;
 }
 
 .footer-logo-studio {
